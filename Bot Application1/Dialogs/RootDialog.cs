@@ -24,7 +24,7 @@ namespace Bot_Application1.Dialogs
 
             // return our reply to the user
             await context.PostAsync($"You sent {activity.Text} which was {length} characters");
-
+            //waiting
             context.Wait(MessageReceivedAsync);
         }
     }
